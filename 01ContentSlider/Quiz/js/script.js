@@ -4,7 +4,7 @@
 
 function getStringLen(str) {
 	var n = str.length;
-	result n;
+	return n;
 }
 
 
