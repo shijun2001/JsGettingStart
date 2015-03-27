@@ -16,7 +16,7 @@ function generateRandomString(strlength) {
 	var result = '';
 	for(i = 0; i < strLength; i++) {
 		var index = Math.floor(Math.random() * strLength) + 1;
-		result += alphabet[index];
+		result += alphabet[index % 26];
 	};
 
 	return result;
@@ -25,7 +25,7 @@ function generateRandomString(strlength) {
 
 
 //Run
-var testString = 'Hello';
+var testString = 'Hello122222222222222222222222ferter';
 var strLength = getStringLen(testString);
 var resultString = generateRandomString(strLength);
 
