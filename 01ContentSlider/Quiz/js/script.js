@@ -3,7 +3,8 @@
 //This is Jun's task: write a javascript function to get length of a string 
 
 function getStringLen(str) {
-	
+	var n = str.length;
+	result n;
 }
 
 
