@@ -1,0 +1,90 @@
+Section 2 Execution Contexts and Lexical Environments 执行上下文和词法环境
+
+Conceptual Aside:
+	Syntax parser 语法分析器
+	Lexical environments 词汇环境
+	Execution contexts 执行上下文
+
+Conceptual Aside:
+	Name/Value pair     Sample: Address = '100 Main St.'
+	Object(A collection of Name/Value pair)   
+	Sample: Address:
+				{
+					Street: 'Main',
+					Number: 100
+					Apartment:
+						{
+							Floor: 3,
+							Number: 301
+						}
+				}
+
+The Global Environment and The Global Object:
+	Global Object(window) = 'this'
+	Global is not inside a function!!!
+
+The Execution context - Creation and Hoisting
+
+Conceptual Aside:Javascript and 'undefined'
+
+The Execution context - Code execution 执行代码
+
+Conceptual Aside:Single threaded 单线程	Synchronous execution 同步执行
+
+Function invocation and the execution stack 函数调用和执行堆栈
+
+Functions,Context,Variable environment
+
+The Scope Chain 作用域链
+
+Scope,ES6,and let
+	if(a > b){
+		let c = true;
+	}
+
+What about Asynchronous callbacks
+	Asynchronous:more than one at a time 异步:多于一次一个
+
+
+Section 3 Types and Operators 类型和运算符
+
+Conceptual Asides:Dynamic typing 动态类型
+
+Primitive types 原始类型
+	Undefined
+	Null
+	Boolean
+	Number
+	String '' ""
+	Symbol 符号 Used in ES6
+
+Conceptual Aside:Operators 运算符
+
+Operator Precedence and Associativity 运算符优先级和关联性
+
+Conceptual Aside:Coercion 强制（转换）
+
+Comparison Operators 比较运算符
+	3 < 2 < 1  --->  (3 < 2)-->false  --->  false < 1  --->  0 < 1  --->  true
+
+Existence and Booleans 存在与布尔值
+
+Default values 默认值
+
+Framework Aside: Default Values 框架 默认值
+
+Section 4 Objects and Functions
+
+Objects and the Dot 对象和点
+
+Objects and objects literals 对象和文字对象
+
+Framework Aside: Faking Namespaces 伪造命名空间
+
+JSON and object literals
+	JSON.stringify()
+	JSON.parse()
+
+Functions are objects
+
+Function statements and function expressions 函数语句与函数表达式
